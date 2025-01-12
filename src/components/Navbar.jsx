@@ -8,8 +8,8 @@ const Navbar = () => {
     <div className="w-full h-16 md:h-20 flex items-center justify-between">
       {/*Logo*/}
       <div className="flex items-center gap-4 text-2xl font-bold">
-        <span class="font-bold text-blue-500 hover:text-blue-700 transition-colors duration-300">
-          Cyber <span class="text-gray-800">Updates</span>
+        <span className="font-bold text-blue-500 hover:text-blue-700 transition-colors duration-300">
+          Cyber <span className="text-gray-800">Updates</span>
         </span>
       </div>
 
