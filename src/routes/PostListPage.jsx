@@ -1,6 +1,8 @@
 const PostListPage = () => {
   return (
-    <div>PostListPage</div>
+    <div>
+      <h1 className="mb-8 text-2xl">Devlopment Blog</h1>
+    </div>
   );
 };
 

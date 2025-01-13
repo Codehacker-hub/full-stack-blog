@@ -8,7 +8,7 @@ import PostListPage from "./routes/PostListPage.jsx";
 import SinglePostPage from "./routes/SinglePostPage.jsx";
 import LoginPage from "./routes/LoginPage.jsx";
 import RegisterPage from "./routes/RegisterPage.jsx";
-import HomePage from "./routes/Homepage.jsx";
+import HomePage from "./routes/HomePage.jsx";
 import WritePage from "./routes/WritePage.jsx"; 
 import MainLayout from "./layouts/MainLayout.jsx";
 import {ClerkProvider} from "@clerk/clerk-react"
