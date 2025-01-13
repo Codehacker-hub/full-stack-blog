@@ -23,7 +23,7 @@ const HomePage = () => {
           </p>
         </div>
         {/* Animated Button */}
-        <Link to="WritePage" className="relative hidden md:block">
+        <Link to="/WritePage" className="relative hidden md:block">
           <svg
             viewBox="0 0 200 200"
             width="200"
