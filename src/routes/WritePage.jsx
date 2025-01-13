@@ -1,6 +1,6 @@
 import { useUser } from "@clerk/clerk-react";
-import ReactQuill from "react-quill-new"
-import 'react-quill-new/dist/quill.snow.css';
+import ReactQuill from "react-quill"
+import 'react-quill/dist/quill.snow.css';
 
 const WritePage = () => {
   const { isLoaded, isSignedIn } = useUser();
@@ -21,7 +21,7 @@ const WritePage = () => {
         <div className="flex items-center gap-4">
           <label htmlFor="" className="text-sm">Choose a Category</label>
           <select className="p-2 rounded-xl bg-white shadow-md" name="category" id="">
-            <option value="General">General</option>
+            <option value="general">General</option>
             <option value="cybersecurity">Cyber Security</option>
             <option value="ethicalhacking">Ethical Hacking</option>
             <option value="technews">Tech News</option>
