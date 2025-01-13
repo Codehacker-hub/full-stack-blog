@@ -34,42 +34,8 @@ const MainCategories = () => {
         >
           Tutorials
         </Link>
-        <Link
-          to="/posts?cat=malware-analysis"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Malware Analysis
-        </Link>
-        <Link
-          to="/posts?cat=networking"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Networking
-        </Link>
-        <Link
-          to="/posts?cat=ai-cybersecurity"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          AI & Cybersecurity
-        </Link>
-        <Link
-          to="/posts?cat=tools-resources"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Tools & Resources
-        </Link>
-        <Link
-          to="/posts?cat=beginners-guide"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Beginner's Guide
-        </Link>
-        <Link
-          to="/posts?cat=digital-privacy"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Digital Privacy
-        </Link>
+     
+       
       </div>
       <span className="text-xl font-medium">|</span>
       {/* Search */}
